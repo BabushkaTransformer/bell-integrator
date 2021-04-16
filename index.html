@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Бронирование билетов</title>
+
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="page">
+			<div class="row">
+				<!-- title -->
+				<div class="title">Бронирование билетов</div>
+				<!-- select date -->
+				<div class="choose">
+					Выберите дату:
+					<select name="" id="day"></select>
+				</div>
+				<!-- select time -->
+				<div class="choose">
+					Выберите время:
+					<select name="" id="time">
+						<option>12:00</option>
+						<option>14:00</option>
+						<option>16:00</option>
+						<option>18:00</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="seats"></div>
+			<!-- button -->
+			<div class="buttons">
+				<div>
+					<button class="button book">Бронировать</button>
+					<button class="button clear-current">Удалить все места из текущего сеанса</button>
+				</div>
+				<button class="button clear-all">Удалить все</button>
+			</div>
+		</div>
+
+		<!-- script -->
+		<script src="js/script.js"></script>
+	</body>
+</html>
