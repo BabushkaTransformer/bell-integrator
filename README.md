@@ -8,3 +8,6 @@
 Глубина архива: одна неделя до текущей даты. Максимальный период бронирования: одна неделя от текущей даты.
 
 Реализовать на JavaScript/JQuery/HTML5/CSS3
+
+
+project link: https://babushkatransformer.github.io/bell-integrator/
